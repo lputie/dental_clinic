@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Services and a non-functional appointment request form for Elite Dental Astana.">
+    <meta name="author" content="Farida Byerik">
+    <title>Elite Dental Astana | Services and Booking</title>
+</head>
+<body>
+    <!-- Author: Farida Byerik -->
+
+```
+<header>
+    <h1>Services and Appointment Request</h1>
+
+    <!-- The navigation appears on every page so the user can move between all four local HTML documents. -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About the clinic</a></li>
+            <li><a href="services.html">Services and booking</a></li>
+            <li><a href="colophon.html">Colophon</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Dental directions</h2>
+
+        <article>
+            <h3>Care described by the clinic</h3>
+
+            <p>
+                Elite Dental Astana publicly describes several dental
+                directions. Endodontics focuses on the treatment and
+                retreatment of root canals, including work under a
+                microscope. The clinic also presents restoration,
+                implantation, prosthetics and orthodontic treatment as
+                part of its wider service range.
+            </p>
+
+            <p>
+                When comparing services, visitors should ask the clinic
+                for current prices and a treatment plan because the final
+                cost can depend on examination results.
+            </p>
+        </article>
+    </section>
+
+    <section>
+        <h2>Appointment request</h2>
+
+        <form method="post" action="">
+            <!-- The form is intentionally non-functional because this local HTML project has no server-side processing yet. -->
+
+            <fieldset>
+                <legend>Request an appointment</legend>
+
+                <label for="name">Full name:</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your full name"
+                    required
+                >
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="name@example.com"
+                    required
+                >
+                <br><br>
+
+                <label for="phone">Phone:</label>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="+7 700 000 00 00"
+                    required
+                >
+                <br><br>
+
+                <label for="age">Age:</label>
+                <input
+                    type="number"
+                    id="age"
+                    name="age"
+                    min="1"
+                    max="120"
+                    placeholder="Your age"
+                    required
+                >
+                <br><br>
+
+                <label for="date">Preferred date:</label>
+                <input
+                    type="date"
+                    id="date"
+                    name="date"
+                    required
+                >
+                <br><br>
+
+                <p>Preferred contact method:</p>
+
+                <input
+                    type="radio"
+                    id="contact-phone"
+                    name="contact"
+                    value="phone"
+                    required
+                >
+                <label for="contact-phone">Phone</label>
+
+                <input
+                    type="radio"
+                    id="contact-email"
+                    name="contact"
+                    value="email"
+                >
+                <label for="contact-email">Email</label>
+
+                <br><br>
+
+                <input
+                    type="checkbox"
+                    id="consent"
+                    name="consent"
+                    required
+                >
+                <label for="consent">
+                    I confirm that the information above is correct.
+                </label>
+
+                <br><br>
+
+                <label for="service">Service direction:</label>
+
+                <select id="service" name="service" required>
+                    <option value="">Choose a service</option>
+                    <option value="endodontics">Endodontics</option>
+                    <option value="restoration">Restoration</option>
+                    <option value="implantation">Implantation</option>
+                    <option value="orthodontics">Orthodontics</option>
+                </select>
+
+                <br><br>
+
+                <label for="message">Additional information:</label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    cols="40"
+                    placeholder="Describe your request"
+                ></textarea>
+
+                <br><br>
+
+                <button type="submit">Submit request</button>
+                <button type="reset">Reset</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <section>
+        <h2>How the form works today</h2>
+
+        <p>
+            Because this is a local HTML assignment, pressing
+            <kbd>Enter</kbd> on the submit button does not send an
+            appointment to the clinic. There is no server-side processing
+            yet.
+        </p>
+
+        <p>
+            The form demonstrates the structure required for a future
+            booking system. The current contact details are
+            <strong>+7 (707) 470-87-54</strong> and
+            <em>46B/2 Turan Avenue</em>.
+        </p>
+    </section>
+
+    <section>
+        <h2>Booking information</h2>
+
+        <dl>
+            <dt>Appointment request</dt>
+            <dd>
+                A request containing visitor information and a preferred
+                date.
+            </dd>
+
+            <dt>Confirmation</dt>
+            <dd>
+                The real clinic must confirm an appointment separately.
+            </dd>
+        </dl>
+    </section>
+
+    <aside>
+        <h2>Contact directly</h2>
+
+        <p>
+            For a real appointment, use the clinic's verified contact
+            information rather than treating this student form as a live
+            booking service.
+        </p>
+
+        <p>
+            Clinic phone:
+            <a href="tel:+77074708754">+7 (707) 470-87-54</a>
+        </p>
+    </aside>
+
+    <!-- This div is used only as a neutral grouping for a small instructional note; no more specific semantic element is needed for this grouping. -->
+    <div>
+        <p>
+            Form status:
+            <!-- This span groups only the short inline status phrase and does not create a separate semantic section. -->
+            <span>local demonstration only</span>.
+        </p>
+    </div>
+</main>
+
+<footer>
+    <p>
+        Contact:
+        <a href="tel:+77074708754">+7 (707) 470-87-54</a>
+        · Astana
+    </p>
+
+    <p>
+        &copy; 2026 Farida Byerik &amp; Elite Dental Astana educational project.
+    </p>
+</footer>
+```
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+# HTML Tag Checklist — Assignment 1
+
+Student: Farida Byerik
+Theme: Elite Dental Astana, Astana
+
+IMPORTANT: This checklist reflects the current generated files. Items marked NOT PRESENT must be completed before submission.
+
+- <!DOCTYPE html>: index.html line 1 — Farida Byerik
+- <html>: index.html line 2 — Farida Byerik
+- <head>: NOT PRESENT — Farida Byerik
+- <meta charset>: index.html line 4 — Farida Byerik
+- <meta name="viewport">: index.html line 5 — Farida Byerik
+- <meta name="description">: index.html line 6 — Farida Byerik
+- <meta name="author">: index.html line 7 — Farida Byerik
+- <title>: index.html line 8 — Farida Byerik
+- <h1>: index.html line 13 — Farida Byerik
+- <header>: index.html line 12 — Farida Byerik
+- <nav>: index.html line 14 — Farida Byerik
+- <main>: index.html line 24 — Farida Byerik
+- <footer>: index.html line 79 — Farida Byerik
+- <section>: index.html line 31 — Farida Byerik
+- <article>: index.html line 33 — Farida Byerik
+- <aside>: index.html line 40 — Farida Byerik
+- <figure>: index.html line 48 — Farida Byerik
+- <figcaption>: index.html line 50 — Farida Byerik
+- <table>: about.html line 45 — Farida Byerik
+- <caption>: about.html line 46 — Farida Byerik
+- <thead>: about.html line 47 — Farida Byerik
+- <tbody>: about.html line 53 — Farida Byerik
+- <th scope>: about.html line 49 — Farida Byerik
+- <ul>: index.html line 15 — Farida Byerik
+- nested <ul>: index.html lines 15 and 64 — Farida Byerik
+- <ol>: NOT PRESENT — add an ordered list with an attribute, then update this checklist. — Farida Byerik
+- <dl>: NOT PRESENT — add a definition list, then update this checklist. — Farida Byerik
+- <a target rel>: index.html line 75 — Farida Byerik
+- mailto: index.html line 42 — Farida Byerik
+- tel: index.html line 28 — Farida Byerik
+- same-page #id links: index.html line 73 (two links to #introduction) — Farida Byerik
+- <img alt>: index.html line 49 — Farida Byerik
+- <strong>: index.html line 27 — Farida Byerik
+- <em>: index.html line 28 — Farida Byerik
+- <b>: about.html line 30 — Farida Byerik
+- <i>: about.html line 30 — Farida Byerik
+- <mark>: index.html line 36 — Farida Byerik
+- <small>: index.html line 43 — Farida Byerik
+- <sub> or <sup>: NOT PRESENT — add a natural sub/sup example. — Farida Byerik
+- two <abbr title>: about.html line 62 (HTML) and line 63 (WWW) — Farida Byerik
+- <blockquote>: about.html line 77 — Farida Byerik
+- <q>: NOT PRESENT — add an inline q containing an authentic quote. — Farida Byerik
+- <cite>: NOT PRESENT — add cite around the source/title of the authentic quote. — Farida Byerik
+- <code>: colophon.html line 30 — Farida Byerik
+- <pre>: colophon.html line 39 — Farida Byerik
+- <kbd>: services.html line 94 — Farida Byerik
+- <samp>: colophon.html line 43 — Farida Byerik
+- <hr>: index.html line 74 — Farida Byerik
+- <br>: index.html line 42 — Farida Byerik
+- HTML entities: NOT PRESENT — Farida Byerik
+- <div>: NOT PRESENT — deliberately omitted to avoid semantic misuse; assignment requires at least one div. — Farida Byerik
+- <span>: NOT PRESENT — add span only where no semantic element fits, with an explanatory comment. — Farida Byerik
+- <form method action>: NOT PRESENT — Farida Byerik
+- <fieldset>: services.html line 38 — Farida Byerik
+- <legend>: services.html line 39 — Farida Byerik
+- <label for>: services.html line 41 — Farida Byerik
+- input type=text: services.html:42 — Farida Byerik
+- input type=email: services.html:46 — Farida Byerik
+- input type=tel: services.html:50 — Farida Byerik
+- input type=number: services.html:54 — Farida Byerik
+- input type=date: services.html:58 — Farida Byerik
+- radio group: services.html lines 55–59 — Farida Byerik
+- checkbox: services.html line 62 — Farida Byerik
+- <select>: services.html line 73 — Farida Byerik
+- <textarea>: services.html line 83 — Farida Byerik
+- required: index.html line 43 — Farida Byerik
+- placeholder: services.html line 42 — Farida Byerik
+- submit button: services.html line 86 — Farida Byerik
+- reset button: services.html line 87 — Farida Byerik
